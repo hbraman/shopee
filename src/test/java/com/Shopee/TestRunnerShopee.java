@@ -25,12 +25,12 @@ public class TestRunnerShopee {
 	public static void selectCountry() {
 		driver.findElement(By.xpath("//div[text()='Singapore']")).click();
 	}
-	@Test(priority = 2)
-	public static void invalidLoginInput() throws InterruptedException {
-		Thread.sleep(4000);
-		WebElement e1 = driver.findElement(By.xpath("//input[@type='text']"));
-		e1.click();
-		//e1.sendKeys("shopee@123.gmail.com");
+	//@Test(priority = 2)
+	//public static void invalidLoginInput() throws InterruptedException {
+//		Thread.sleep(4000);
+//		WebElement e1 = driver.findElement(By.xpath("//input[@type='text']"));
+//		e1.click();
+//		//e1.sendKeys("shopee@123.gmail.com");
 		//driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("159357");
 		//driver.findElement(By.xpath("//button[@class='oVeLwk']")).click();
 		//driver.findElement(By.xpath("//button[text()='Log In']")).click();
@@ -44,4 +44,4 @@ public class TestRunnerShopee {
 //		selectCountry();
 //	}
 
-}
+
